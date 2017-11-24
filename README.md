@@ -34,6 +34,8 @@ int main() {
 ## Install (Windows)
 Simply copy the header files to your project's build directory.
 
+---
+
 ## Console Logging
 
 ahxrlogger provides 4 logging levels. Each level provides a threaded and non-threaded variant.
@@ -81,7 +83,7 @@ If you want to specify a console handle you want the logging to show up on, the 
 ahxrlogger_handle( HANDLE consoleHandle )
 ```
 
-### Console Color Logging
+## Console Color Logging
 
 If you wish to log something with a specific color scheme, place the following markdown anywhere
 in the string:
@@ -116,16 +118,16 @@ remove this feature, undefine *AHXRLOGGER_CONSOLE_RESET_COLOR* after including a
 File logging can be managed with the following functions. The macros are pretty self-explanatory:
 
 ```c++
-ahxrlogger_error_logging( bool toggle )
-ahxrlogger_warning_logging( bool toggle )
-ahxrlogger_important_logging( bool toggle )
-ahxrlogger_general_logging( bool toggle )
-ahxrlogger_toggle_logging( bool toggle )
+ahxrlogger_error_logging( bool toggle );
+ahxrlogger_warning_logging( bool toggle );
+ahxrlogger_important_logging( bool toggle );
+ahxrlogger_general_logging( bool toggle );
+ahxrlogger_toggle_logging( bool toggle );
 
-ahxrlogger_file_general( const char * filePath )
-ahxrlogger_file_error( const char * filePath )
-ahxrlogger_file_warning( const char * filePath )
-ahxrlogger_file_important( const char * filePath )
+ahxrlogger_file_general( const char * filePath );
+ahxrlogger_file_error( const char * filePath );
+ahxrlogger_file_warning( const char * filePath );
+ahxrlogger_file_important( const char * filePath );
 ```
 
 As you can see, you can change the file path you want a certain level to log at. *ahxrlogger_toggle_logging* will toggle logs on/off for ALL levels.
