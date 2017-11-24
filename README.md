@@ -2,7 +2,6 @@
 
 ```c++
 #include "ahxrlogger.h"
-#include <fstream>
 
 using namespace std;
 

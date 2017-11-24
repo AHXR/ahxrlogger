@@ -1,0 +1,5 @@
+﻿  main.cpp
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  main.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  logger_debug.vcxproj -> C:\Users\Andre\Documents\Visual Studio 2015\Projects\AHXRLogger\Debug\logger_debug.exe
+  logger_debug.vcxproj -> C:\Users\Andre\Documents\Visual Studio 2015\Projects\AHXRLogger\Debug\logger_debug.pdb (Partial PDB)
